@@ -1,0 +1,628 @@
+body{
+    overflow-x: hidden;
+}
+header{
+    width: 100%;
+    padding: 20px 0;
+    position: fixed;
+    align-items: center;
+    background: #001B38 ;
+    z-index: 10;
+}
+
+header .tete{
+    width: 90%;
+    margin: 0 5%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header img{
+    width: 5vw;
+}
+
+header .img:hover {
+	transform: rotate(0deg);
+}
+
+header nav{
+    width: 60%;
+    margin-top: 1%;
+}
+
+header nav ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+header nav ul li a {
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 1.5vw;
+    font-weight: bold;
+    text-decoration: none;
+    padding: .5vw 1vw;
+    transition: .2s;
+}
+
+
+
+header nav ul li a:hover{
+    color: white;
+    border-bottom: 2px solid rgb(221, 221, 221);
+}
+header #link-formation{
+    position: relative;
+    cursor: pointer;
+}
+header #link-formation a:nth-child(1){
+    padding: .5vw 1vw;
+    border-radius: .5vw .5vw 0 0 !important ;
+}
+header #link-formation:hover a:nth-child(1){
+    color: white;
+    padding: .5vw 1vw;
+    border-radius: .5vw;
+    background: rgb(5, 5, 5);
+}
+header #link-formation:hover ul{
+    display: flex;
+}
+header #link-formation ul{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: none;
+    top: 2.4vw;
+    padding-top: .3vw;
+    display: none;
+}
+header #link-formation ul li{
+    background: rgb(146, 146, 146);
+    color: black;
+    width: 100%;
+    margin-bottom: .3vw;
+    text-align: center;
+}
+.active{
+    color: brown;
+}
+header #link-formation ul li:hover{
+    color: rgb(255, 255, 255);
+}
+header #link-formation ul li a{
+    transform: none;
+    background: none !important;
+    width: 100%;
+    width: 100%;
+    display: inline-block;
+    text-decoration: none !important;
+}
+header #link-formation ul li a:hover{
+    transform: none;
+    background: black !important;
+    border-radius: 0 !important;
+}
+
+.titre{
+    text-transform: uppercase;
+    font-size: 3vw;
+    color: white;
+    text-align: center;
+    /* text-decoration: underline dotted; */
+}
+
+#section2{
+    width: 100%;
+    padding: 5vw;
+}
+
+.section2{
+    background: linear-gradient(45deg, #001c30,#014ea0 30%, #3a75b4, #001c30);
+    padding-top: 4%;
+    width: 100%;
+    height: 85vh;
+}
+.section2 .box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5vw;
+}
+
+.sectionmotdePresident{
+    /* padding-top: 2%; */
+    display: flex;
+    justify-content: space-between;
+    width: 88%;
+    margin: 0 auto;
+    color: white;
+}
+
+.motdu{
+    width: calc(80%/2);
+    text-align: justify;
+    font-size: 21px;
+}
+
+.motdu:nth-of-type(1){
+    width: 25%;
+    height: 45vh;
+    overflow: hidden;
+    margin-top: 3%;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+
+.nomP{
+    position: absolute;
+    top: 170%;
+    left: 7%;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    z-index: 5;
+}
+
+.motdu:nth-of-type(2){
+    width: 50vw;
+    height: 45vh;
+    margin-top: 3%;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+
+.motdu img{
+    margin-top: -60px;
+    margin-left: -100%;
+}
+
+.saryPresident img{
+    width: 25vw;
+}
+
+#diny{
+    width: 50%;
+}
+
+/* begin*/
+#begin{
+    width: 100%;
+    padding: 5vw 8vw;
+    height: 45vw;
+    background: url(/image/B5.jpg) rgba(0, 0, 0, 0.663);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-attachment: fixed;
+    }
+.begin11{
+    margin-top: 4%;
+    width: 65vw;
+    text-align: center;
+}
+#begin h2{
+    font-size: 5vw;
+    color: white;
+    margin: 2vw 0;
+}
+#begin p{
+    font-size: 1.8vw;
+    color: white;
+    text-align: center;
+}
+
+/* Style sur actualité */
+
+.section3{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 3%;
+}
+
+.section3 .title{
+    font-size: 4vw;
+}
+
+
+
+.section3 .voir{
+    background: #001c3080;
+    text-align: center;
+    margin-left: 15px;
+    padding: 10px 20px;
+    border-radius: 7px;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+.section3 .voir:hover{
+    background: #001c30;
+    text-align: center;
+    padding: 7px 15px;
+    font-size: 25px;
+}
+
+
+
+.section3 .mitady{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section3 input{
+    width: 78vw;
+    padding: 5px;
+    font-size: 2vw;
+    color: red;
+    outline: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background: none;
+    border: 2px solid #959595;
+    border-right: none;
+}
+
+.section3 .goy{
+    display: inline-block;
+    border: none;
+    width: 15vw;
+    color: white;
+    /* margin-left: 5px; */
+    padding: 1.8vh;
+    font-size: 2vw;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: #001B3870;
+}
+
+.ligne{
+    width: 100%;
+    height: 1vh;
+    background: #001B38;
+    margin-top: 1.2%;
+}
+
+.section3 .goy:hover{
+    background: #001B38;
+}
+
+
+
+.section3 .sary{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.section3 .sary .saryContenu{
+    width: calc(90%/3);
+    background: red;
+    overflow: hidden;
+    height: 30vh;
+}
+
+
+.section3 .sary .saryContenu h3{
+    text-align: center;
+}
+
+
+.sary{
+    margin: 50px auto 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card{
+    /* margin: 10px; */
+    width: 25vw;
+    height: 300px;
+    position: relative;
+    background-color: rgb(154, 16, 16);
+    overflow: hidden;
+    margin-left: 3%;
+}
+
+
+
+/* Formation */
+
+.top{
+    align-items: end;
+}
+
+
+.mega-web{
+    align-items: end;
+    width: 100%;
+}
+.mega-web .wx{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 2%;
+}
+.mega-web{
+    text-align: center;
+}
+.mega-web h2{
+    padding-top: 12%;
+    font-size: 28px;
+}
+
+.lien{
+    background: white;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 30%;
+    margin-top: 28px;
+    font-size: 25px;
+    padding: 10px;
+    color: #014ea0;
+    border-radius: 10px
+    
+    ;
+}
+.box-web{
+    background: #001B38;
+    text-align: center;
+    color: white;
+    margin: 15px;
+    text-transform: uppercase;
+    height: 60vh;
+}
+
+.box-web:hover{
+    scale: (1.2);
+}
+
+.box-web h4{
+    padding-top: 4%;
+}
+
+.box-web .aaa{
+    display: inline-block;
+    margin-top: 1%;
+    background: white;
+    color: black;
+    padding: 8px 12px;
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.box-web .aaa:hover{
+    display: inline-block;
+    color: white;
+    margin-top: 1%;
+    background: none;
+    padding: 7px 11px;
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+
+.wx img{
+    width: 400px;
+    height: 300px;
+}
+
+
+/* Decouvrir */
+
+.cards{
+    /* margin: 10px; */
+    width: 25vw;
+    height: 300px;
+    position: relative;
+    background-color: #014ea0;
+    overflow: hidden;
+    margin-left: 3%;
+    color: white;
+}
+.cards .content{
+    text-align: center;
+    padding: 4px;
+}
+
+.cards .content h1{
+    text-align: center;
+}
+
+.cards .content p{
+    font-size: 1.2vw;
+}
+
+.boutonLien{
+    background: #001B3880;
+    position: absolute;
+    top: 63.6%;
+    height: 4.6vh;
+    width: 7vw;
+}
+
+.boutonLien .infos{
+    padding: 25px 5px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.img{
+    width: 25vw;
+    height: 220px;
+    overflow: hidden;
+}
+.cards .img img{
+    width: 25vw;
+    /* height: 25vh; */
+}
+.card .img img{
+    width: 25vw;
+    /* height: 25vh; */
+}
+
+
+.card .content{
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    bottom: 0;
+    background-color: #001B38;
+    transition: 0.5s;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.card .content h1{
+    margin-top: 10px;
+    letter-spacing: 1px;
+    color: white;
+    text-align: center;
+}
+.card .content p{
+    text-align: justify;
+    /* letter-spacing: 1px; */
+    color: rgba(255, 255, 255, 0);
+    
+}
+.card:hover .content{
+    height: 235px;
+    color: white;
+}
+
+@media(max-width:748px){
+    .container{
+        justify-content: center;
+    }
+}
+
+.section3 .vr{
+    width: 100vw;
+    height: 10vh;
+    margin-top: 3%;
+}
+
+.boribory{
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    width: 10vw;
+    margin-left: 42%;
+}
+
+.rond1{
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    border: 2px solid #001B38;
+    margin: 5px;
+    margin-left: 0;
+}
+
+.rond1:nth-of-type(2){
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background: #001B38;
+}
+
+/* Fin section sary */
+
+/* header .li.nav-link {
+	font-weight: 700;
+	color: #999;
+	border-radius: 0;
+	font-size: 14px;
+}
+
+header .li.nav-link:hover {
+	color: #fff;
+} */
+
+/* footer */
+footer{
+    /* background: linear-gradient(60deg, #001c30,#014ea0, #3a75b4, #001c30); */
+    background: url(../public/image/footer.png);
+    height: 50vh;
+    color: white;
+    background-size: cover;
+    width: 100vw;
+}
+
+.ambany{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 10%;
+    justify-content: space-between;
+}
+
+.ambany h2{
+    font-size: 35px;
+    text-transform: capitalize;
+}
+
+.ambany ul {
+    list-style: none;
+}
+
+.ligne8{
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    justify-content: center;
+}
+
+.absolute{
+    position: absolute;
+    height: 2px;
+    /* border-bottom: 5px solid red; */
+    background: rgb(255, 255, 255);
+    width: 85.5%;
+    left:7.3%;
+    top: 55%;
+}
+
+.ambany ul li{
+    font-size: 18px;
+    color: white;
+}
+
+.pied h2{
+    text-transform: uppercase;
+    font-size: 22px;
+}
+.ligne8 p{
+    padding-top: 30px;
+    font-size: 1.2vw;
+}
+
+.pro{
+    width: 90%;
+    padding-top: 15%;
+    margin: 0 auto;
+    display: flex;
+    font-size: 20px;
+}
+
+
+
+
+

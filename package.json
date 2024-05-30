@@ -1,0 +1,42 @@
+{
+  "homepage": "https://sogamena.github.io/univ",
+  "name": "projet1",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "start": "concurrently \"npm run start:server\" \"npm run dev\"",
+    "start:server": "concurrently \"npm run start:server1\" \"npm run start:server2\"",
+    "start:server1": "json-server --watch data/decouvrir.json --port 3001",
+    "start:server2": "json-server --watch data/actualite.json --port 3002",
+    "deploy":"gh-pages -d build"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.2.3",
+    "axios": "^1.6.8",
+    "concurrently": "^8.2.2",
+    "firebase": "^10.11.1",
+    "json-server": "^1.0.0-alpha.23",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^9.1.1",
+    "react-router-dom": "^6.23.0",
+    "react-slick": "^0.30.2",
+    "react-toastify": "^10.0.5"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "gh-pages": "^6.1.1",
+    "vite": "^5.2.0"
+  }
+}

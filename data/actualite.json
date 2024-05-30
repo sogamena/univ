@@ -1,0 +1,47 @@
+{
+    "actualite": [
+      {
+        "id": "1",
+        "nom": "Dr HDR Daniel Rajaonasy FENO",
+        "date": "26/04/2024",
+        "image": "feno.jpg",
+        "description": "soutenance d'Habilitation a Diriger des Recherches!"
+      },
+      {
+        "id": "2",
+        "nom": "Célebration de la Journée International de la Douane au Campus Barikadimy",
+        "date": "26/01/2024",
+        "image": "celebration.jpg",
+        "description": "La cérémonie a atteint un jalon majeur ave la signature officielle d'une convention de partenariat entre les deux institutions, une collaboration prometteusde pour l'avaenir..."
+      },
+      {
+        "id": "3",
+        "nom": "REVUT VENDREDI Conférence 2024",
+        "date": "04/2024",
+        "image": "revut.jpg",
+        "description": "Huit Conférence de 90min pour 2024"
+      },
+      {
+        "id": "4",
+        "nom": "Ma Thèse en 180 Secondes",
+        "date": "08/05/2024",
+        "image": "these.jpg",
+        "description": "FINALE RÈGIONAL "
+      },
+      {
+        "id": "5",
+        "nom": "Réception de documents et d'ouvrages offerts par les Nations Unis ",
+        "date": "28/02/2024",
+        "image": "reception.jpg",
+        "description": "Dans le cadre de l'initiative de promotion de l'éducation aux Droits Humaine,les Nations Unies ont offerts des documents et d'ouvrage relatifs droits Humains à la Presidence de l'Université de Toamasina.."
+      },
+      {
+        "id": "6",
+        "nom": "RAHARINIRINA Eric Florent",
+        "date": "20/03/2024",
+        "image": "florent.jpg",
+        "description": "Dans le cadre de la semaine de la langue français et dans le cadre festival de la francophonie ,AUF,s'associant au ministère de la culuture et à la Bibliothèque National de France a organisé un concours autour des expressions francophones entre les club du réseau CLEF"
+      }
+     
+    ]
+  }

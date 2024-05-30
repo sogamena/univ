@@ -1,0 +1,42 @@
+{
+    "decouvrir": [
+      {
+        "id": "1",
+        "title": "Facultés",
+        "describe": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "image": "faculte.jpg"
+        },
+        {
+            "id": "2",
+            "title": "Ecoles doctorales",
+            "describe": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            "image": "doctorals.PNG"
+        },
+        {
+            "id": "3",
+            "title": "Nouvelles écoles",
+            "describe": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            "image": "ecole.jpg"
+        },
+        {
+            "id": "4",
+            "title": "instituts",
+            "describe": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            "image": "institut.jpg" 
+
+        },
+        {
+            "id": "4",
+            "title": "instituts",
+            "describe": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            "image": "institut.jpg" 
+
+        },
+        {
+            "id": "5",
+            "title": "Formations",
+            "describe": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            "image": "formation.jpg"
+        }
+    ]
+  }
